@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  /* Color Primary */
+
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  /* Color Neutral */
+
+  --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+  --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+
+  /* Font */
+
+  --ff-OutFit: "Outfit", sans-serif;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-600: 600;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  font-size: 18px;
+  background-color: var(--Very-dark-blue-main-BG);
+}
+.container {
+  background-color: var(--Very-dark-blue-card-BG);
+  border-radius: 20px;
+  margin: 25px;
+}
+.content {
+  padding: 25px;
+}
+.cont-img {
+  background-image: url(./images/image-equilibrium.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+h1 {
+    color: var(--White);
+    font-family: var(--ff-OutFit);
+}
+p{
+    color: var(--Soft-blue);
+    font-family: var(--ff-OutFit);
+    font-weight: var(--fw-300);
+}
