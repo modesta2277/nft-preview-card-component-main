@@ -27,20 +27,23 @@
 }
 
 body {
-  font-size: 18px;
+  font-size: 15px;
   background-color: var(--Very-dark-blue-main-BG);
 }
 .container {
   background-color: var(--Very-dark-blue-card-BG);
   border-radius: 20px;
   margin: 25px;
+ 
 }
 .content {
   padding: 25px;
 }
 .content p {
+  font-size: 16px;
   margin-top: 20px;
   margin-bottom: 20px;
+  line-height: 1.5;
 }
 /* .content > div, p, h1{
   margin-top: 20px;
@@ -60,6 +63,7 @@ h1 {
   font-family: var(--ff-OutFit);
   margin-top: 30px;
   margin-bottom: 20px;
+  font-size: 22px;
 }
 p {
   color: var(--Soft-blue);
@@ -68,7 +72,7 @@ p {
 }
 .price-container {
   display: flex;
-
+  /* font-size: 17px; */
 }
 .price,
 .time {
@@ -80,11 +84,11 @@ p {
 .price img,
 .time img {
   height: 20px;
-  padding-right: 7px;
+  padding-right: 5px;
 }
 .price p {
   color: var(--Cyan);
-  font-weight: var(--fw-600);
+  font-weight: var(--fw-400);
   margin: 0;
 }
 .time {
@@ -106,12 +110,17 @@ hr {
   
 }
 .avatar img {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  
   border: 2px solid white;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 15px;
   align-self: center;
+ 
+}
+.avatar p{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 span {
   color: white;
