@@ -33,9 +33,9 @@ body {
 .container {
   background-color: var(--Very-dark-blue-card-BG);
   border-radius: 20px;
-  margin: 50px auto;
+  margin: 70px auto;
   width: 400px;
-  height:700px;
+  height:auto;
   margin-left: auto;
   margin-right: auto;
 }
