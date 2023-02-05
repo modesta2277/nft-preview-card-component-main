@@ -33,9 +33,9 @@ body {
 .container {
   background-color: var(--Very-dark-blue-card-BG);
   border-radius: 20px;
-  margin: 50px;
-  width: 380px;
-  
+  margin: 50px auto;
+  width: 400px;
+  height:700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -43,7 +43,7 @@ body {
   padding: 25px;
 }
 .content p {
-  font-size: 19px;
+  font-size: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 1.5;
@@ -63,7 +63,7 @@ h1 {
   font-family: var(--ff-OutFit);
   margin-top: 30px;
   margin-bottom: 20px;
-  font-size: 26px;
+  font-size: 27px;
 }
 p {
   color: var(--Soft-blue);
@@ -90,14 +90,14 @@ p {
   color: var(--Cyan);
   font-weight: var(--fw-400);
   margin: 0;
-  font-size: 16px;
+  font-size: 19px;
 }
 .time {
   justify-content: end;
 }
 .time p {
   margin: 0;
-  font-size: 16px;
+  font-size: 19px;
 }
 hr {
   background-color: var(--Very-dark-blue-line);
