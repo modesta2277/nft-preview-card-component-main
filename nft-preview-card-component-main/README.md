@@ -28,7 +28,7 @@ Design
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://https://modesta2277.github.io/nft-preview-card-component-main/)
+- Solution URL: [Add solution URL here](https://https://modesta2277.github.io/nft-preview-card-component-main/nft-preview-card-component-main/)
 
 ## My process
 
