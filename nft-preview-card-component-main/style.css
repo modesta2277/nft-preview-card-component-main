@@ -35,12 +35,13 @@ body {
   border-radius: 20px;
   margin: 70px auto;
   width: 400px;
-  height:auto;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 .content {
   padding: 25px;
+  
 }
 .content p {
   font-size: 20px;
@@ -50,12 +51,25 @@ body {
 }
 
 .cont-img {
-  background-image: url(./images/image-equilibrium.jpg);
-  background-position: center;
-  background-size: cover;
-  max-width: 100%;
-  height: 380px;
   border-radius: 10px;
+  cursor: pointer;
+}
+.imgNft {
+  opacity: 0.5;
+  border-radius: 10px;
+  max-width: 100%;
+  display: block;
+}
+.cont-img:hover {
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: 
+  linear-gradient(
+    rgba(0, 255, 247, 0.3), 
+      rgba(0, 255, 247, 0.7)
+  ),
+  url(./images/icon-view.svg);
 }
 
 h1 {
@@ -64,6 +78,10 @@ h1 {
   margin-top: 30px;
   margin-bottom: 20px;
   font-size: 27px;
+  cursor: pointer;
+}
+h1:hover {
+  color: var(--Cyan);
 }
 p {
   color: var(--Soft-blue);
@@ -124,4 +142,8 @@ hr {
 }
 span {
   color: white;
+  cursor: pointer;
+}
+span:hover {
+  color: var(--Cyan);
 }
